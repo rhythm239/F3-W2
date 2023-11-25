@@ -1,40 +1,24 @@
-Description
-This project is a simple web application that includes a signup page, profile page, and basic user authentication functionalities. The implementation adheres to the provided Figma design and includes features such as mandatory fields, local storage for user details, access control, a logout button, and success/error message displays.
+# Project Title: User Auth & Profile
 
-Features
-Signup Page:
+1. **Signup Page:** Create a mandatory field signup page following the Figma design.
 
-Create a signup page following the design in Figma.
-All fields on the signup page are mandatory.
-User State:
+2. **User State:** Store user details with a randomly generated access token in local storage on signup.
 
-Store user details, including a randomly generated 16-byte access token, in local storage upon successful signup.
-Profile Page:
+3. **Profile Page:** Display user details on a profile page based on the Figma design.
 
-Develop a profile page based on the Figma design.
-Display user details retrieved from local storage.
-Logout:
+4. **Logout:** Implement a logout button to clear local storage and redirect to the signup page.
 
-Implement a "Logout" button on the profile page.
-When clicked, clear the local storage and redirect the user to the signup page.
-Access Control:
+5. **Access Control:** Use JavaScript to redirect unauthorized users, enforcing access control.
 
-Use JavaScript to implement access control.
-If a user attempts to manually navigate to the "Profile" page without an access token in local storage, redirect them to the signup page.
-Similarly, if a user with a valid access token tries to manually navigate to the "Signup" page, redirect them to the profile page.
-Success and Error Messages:
+6. **Messages:** Display UI-appropriate success and error messages.
 
-Display appropriate success and error messages according to the UI design.
-Technologies Used
-HTML
-CSS
-JavaScript
-How to Run
-Clone the repository: git clone https://github.com/your-username/repo-name.git
-Open the project in your preferred code editor.
-Launch the application by opening the index.html file in a web browser.
-Additional Notes
-Ensure a modern web browser is used for optimal performance.
-The project has been designed to be responsive, but it is recommended to check on various devices for any specific adjustments.
-Contributing
-Feel free to contribute to the project by opening issues or creating pull requests. Your input is valuable in enhancing the functionality and usability of the system.
+### How to Run:
+
+1. Clone: `git clone https://github.com/your-username/repo-name.git`
+2. Open: `index.html` in a modern web browser.
+
+### Contributing: 
+Contribute by opening issues or pull requests.
+
+### License: 
+[MIT License](LICENSE.md).
