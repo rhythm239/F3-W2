@@ -1,4 +1,3 @@
-User Authentication and Profile Management System
 Description
 This project is a simple web application that includes a signup page, profile page, and basic user authentication functionalities. The implementation adheres to the provided Figma design and includes features such as mandatory fields, local storage for user details, access control, a logout button, and success/error message displays.
 
